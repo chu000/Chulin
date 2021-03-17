@@ -478,6 +478,7 @@ opacity: 1;
          bottom: 0;
           background: linear-gradient(to top, #1c1c1cde 30%, #1c1c1c00 100%);
           z-index: 1;
+          text-decoration: none;
          
       }
 
