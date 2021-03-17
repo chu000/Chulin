@@ -458,7 +458,7 @@ opacity: 1;
       
       }
       .wrapYes{
-        background: url(./images/main_yes.png) center no-repeat;
+        background: url("../images/main_yes.png") center no-repeat;
         background-size: cover;
       
       }
