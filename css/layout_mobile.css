@@ -682,7 +682,7 @@ height: 20px;
 
 }
 .picBox img{
- transition: 1s;
+
   max-width: 200px;
 margin: 3% 0 ;
 
@@ -714,12 +714,16 @@ margin: 3% 0 ;
 
 }
 .picBox img{
- transition: 1s;
+
   max-width: 150px;
 margin: 3% 0 ;
 
 }
-
+.STitle {
+  font-size: 16px;
+  color: rgb(129, 129, 129);
+  margin: 30px 20px 10px 20px;
+}
 .bottomplace{
   margin-top: 15%;
 
@@ -777,16 +781,40 @@ height: 25px;
 }
 .picBox {
   margin: 5% auto;
-  max-width: 320px;
-  column-count:1;
+  max-width: 350px;
+  column-count:2;
 
 }
 .picBox img{
- transition: 1s;
-  max-width: 300px;
+
+  max-width: 160px;
 margin: 3% 0 ;
 
 }
 
 
 }
+@media(max-width:400px){
+  .workContent{
+    max-width: 260px;
+    margin: 18% auto 2% auto;
+    font-size: .7rem;
+  }
+  .workContent h3{
+      font-size: 15px;
+  }
+  .picBox {
+    margin: 5% auto;
+    max-width: 270px;
+    column-count:2;
+  
+  }
+  .picBox img{
+
+    max-width: 130px;
+  margin: 3% 0 ;
+  
+  }
+  
+  
+  }
