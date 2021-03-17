@@ -111,7 +111,7 @@ cursor: pointer;
     position: relative;
     width: 100%;
    /* height: 830px; */
-    background: url(/images/header/H1bg.png) center center no-repeat;
+    background: url(./images/header/H1bg.png) center center no-repeat;
     background-size: cover;
 
    
@@ -436,32 +436,32 @@ position: absolute;
 opacity: 1;
       }
       .wrapFuntown{
-        background: url(/images/main_funtown.png) center no-repeat;
+        background: url(./images/main_funtown.png) center no-repeat;
         background-size: cover;
  
       } 
       .wrapExtreme{
-        background: url(/images/main_extreme.png) center no-repeat;
+        background: url(./images/main_extreme.png) center no-repeat;
         background-size: cover;
       
       }
       .wrapWant{
-        background: url(/images/main_want.png) center no-repeat;
+        background: url(./images/main_want.png) center no-repeat;
         background-size: cover;
       
       }
       .wrapHong{
-        background: url(/images/main_hong.png) center no-repeat;
+        background: url(./images/main_hong.png) center no-repeat;
         background-size: cover;
       
       }
       .wrapYes{
-        background: url(/images/main_yes.png) center no-repeat;
+        background: url(./images/main_yes.png) center no-repeat;
         background-size: cover;
       
       }
       .wrapYidu{
-        background: url(/images/main_yidu.png) center no-repeat;
+        background: url(./images/main_yidu.png) center no-repeat;
         background-size: cover;
       
       }
@@ -779,20 +779,20 @@ transition: 1s;
 }
 .mainline{
   
-  background: url(/images/hobbymain_line.gif) center no-repeat;
+  background: url(./images/hobbymain_line.gif) center no-repeat;
   background-size: cover;
 
 
 }
 .maindraw{
   
-  background: url(/images/hobbymain_draw.gif) center no-repeat;
+  background: url(./images/hobbymain_draw.gif) center no-repeat;
   background-size: cover;
 ;
 }
 .maintoys{
   
-  background: url(/images/hobbymain_toys.gif) center no-repeat;
+  background: url(./images/hobbymain_toys.gif) center no-repeat;
   background-size: cover;
  
 }
