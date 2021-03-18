@@ -725,7 +725,7 @@ margin: 3% 0 ;
   margin: 30px 20px 10px 20px;
 }
 .bottomplace{
-  margin-top: 15%;
+  margin-top: 20%;
 
 
 }
@@ -818,3 +818,69 @@ margin: 3% 0 ;
   
   
   }
+
+
+  
+/*------------興趣頁----------------------------*/
+@media (max-width:768px){
+  .notebox {
+    max-width: 500px;
+    color: var(--maingray);
+    font-size: 0.8rem;
+  
+    margin: 1% auto 5% auto;
+ 
+  }
+  
+  .HBbgLine {
+ 
+    padding: 3% 2%;
+    max-width: 700px;
+    margin: 3% auto;
+    color: #1c1c1c;
+    font-size: 0.8rem;
+  }
+  .HBbgLine img {
+    max-width: 100px;
+    margin: 1% 2%;
+  }
+  .hobbyBTN {
+    max-width: 70px;
+    margin: 3% auto 0 auto;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width:540px){
+  .notebox {
+    max-width: 500px;
+    color: var(--maingray);
+    font-size: 0.7rem;
+padding: 2%;
+    margin: 1% auto 5% auto;
+ 
+  }
+  
+  .HBbgLine {
+    border-radius: 0px;
+    padding: 4% 0;
+    max-width: 500px;
+    margin: 3% auto;
+    color: #1c1c1c;
+    font-size: 0.7rem;
+
+  }
+  .HBbgLine p{
+    line-height: 1.5;
+    font-size: 0.7rem;
+  }
+  .HBbgLine img {
+    max-width: 75px;
+    margin: 2% 5px;
+  }
+  .hobbyBTN {
+    max-width: 50px;
+    margin:2% auto 0 auto;
+    font-size: 0.7rem;
+  }
+}
