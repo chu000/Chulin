@@ -408,27 +408,27 @@ h1 {
   opacity: 1;
 }
 .wrapFuntown {
-  background: url('../images/main_funtown.png') center no-repeat;
+  background: url('../images/main_funtown.jpg') center no-repeat;
   background-size: cover;
 }
 .wrapExtreme {
-  background: url('../images/main_extreme.png') center no-repeat;
+  background: url('../images/main_extreme.jpg') center no-repeat;
   background-size: cover;
 }
 .wrapWant {
-  background: url('../images/main_want.png') center no-repeat;
+  background: url('../images/main_want.jpg') center no-repeat;
   background-size: cover;
 }
 .wrapHong {
-  background: url('../images/main_hong.png') center no-repeat;
+  background: url('../images/main_hong.jpg') center no-repeat;
   background-size: cover;
 }
 .wrapYes {
-  background: url('../images/main_yes.png') center no-repeat;
+  background: url('../images/main_yes.jpg') center no-repeat;
   background-size: cover;
 }
 .wrapYidu {
-  background: url('../images/main_yidu.png') center no-repeat;
+  background: url('../images/main_yidu.jpg') center no-repeat;
   background-size: cover;
 }
 /* 工作列表 */
