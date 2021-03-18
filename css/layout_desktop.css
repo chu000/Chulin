@@ -241,10 +241,10 @@ h1 {
   max-width: 400px;
   margin: 0 auto;
   text-align: left;
-
+  font-size: 0.9rem;
   letter-spacing: 1px;
 
-  line-height: 1.8;
+  line-height: 2;
 }
 .littlechu {
   position: absolute;
@@ -288,99 +288,40 @@ h1 {
 /* 證照 */
 
 .License-box {
-  max-width: 900px;
-  margin: 2% auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .License {
-  font-size: 0.9rem;
-  line-height: 32px;
+  font-size: 0.8rem;
+  line-height: 28px;
   text-align: center;
-  max-width: 200px;
-  margin: 10px auto;
+  max-width: 190px;
+  margin: 5px auto;
   /* color: var(--mainblue); */
   color: var(--maingray);
-  border: 1px solid;
-
+  border: 1px solid var(--maingray);
+  /* font-weight: 600; */
+/* background-color:rgba(182, 182, 182, 0.8); */
   border-radius: 50px;
 }
-/* 每個標題title icon */
-/* .title{
-    display: flex;
-    justify-content:center; 
-   
-    align-items: center; 
-   
-    
-    } */
-/* .title h2{
-        display:inline-block;
-        line-height: 60px;
-    
-    } */
-/* .title svg{
-        width: 60px;
-        height: 60px;
-        fill: var(--mainblue);
-    
-    }
-    
- 
-    .title-icon{    
-        margin-right: 10px;
-        animation-name: wiggle;
-        animation-iteration-count:infinite;
-        animation-timing-function: ease-in;
-        animation-duration:5s;
-    
-    } */
-/* @keyframes wiggle {
-        0% {
-         
-          transform: translate3d(0, 0, 0);
-        }
-      
-        15% {
-        
-          transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
-        }
-      
-        30% {
-         
-          transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
-        }
-      
-        45% {
-        
-          transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
-        }
-      
-        60% {
-         
-          transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
-        }
-      
-        75% {
-         
-          transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
-        }
-      
-        100% {
-        
-          transform: translate3d(0, 0, 0);
-        }
-      } */
+.aboutTitle{
+  font-size: 0.9rem;
+  color:var(--maingray);
+  font-weight: 600;
+  margin: 2% 0;
+}
 
 /* skills */
 .skilssbox {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   margin-bottom: 2%;
   display: flex;
   justify-content: center;
 }
 .skills-icon {
-  width: 45px;
-  height: 45px;
+  width: 20px;
+  height: 20px;
   margin: 2% 2%;
 }
 
@@ -1063,7 +1004,7 @@ margin: 0 auto;
   margin-bottom: 2%;
 }
 .HBbgLine img {
-  max-width: 150px;
+  max-width: 130px;
   width: 100%;
   object-fit: contain;
   margin: 2%;
