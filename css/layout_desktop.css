@@ -161,11 +161,11 @@ nav {
 @keyframes chu {
   0% {
     right: 30%;
-    bottom: -30%;
+    bottom: -45%;
   }
   100% {
     right: 28%;
-    bottom: -25%;
+    bottom: -35%;
   }
 }
 .H1box {
@@ -291,13 +291,13 @@ h1 {
   color:var(--maingray);
 opacity: .5;
   font-weight: 600;
-  margin: 2% 0 2% 0;
+  margin: 4% 0 2% 0;
   letter-spacing: 1.1px;
 }
 
 /* skills */
 .skillbox {
-  max-width:480px;
+  max-width:950px;
   margin: 0 auto;
   margin-bottom: 2%;
   display: flex;
@@ -308,20 +308,26 @@ opacity: .5;
 .skill_SET {
   text-align: center;
   /* max-width: 80px; */
-  margin: 0 0 4% 0;
+  margin: 0 0 1% 0;
 
 
  
 }
 .skill_SET p {
  
-  color: rgb(86, 86, 86);
- 
+  color: rgb(66, 66, 66);
+ cursor: pointer;
 font-size: 0.7rem;
 margin: 0 auto;
 
 }
+.skill_SET  :hover{
+ 
+  color: rgb(255, 255, 255);
+ 
 
+
+}
 .skills-icon {
 
   width: 30px;
@@ -342,8 +348,8 @@ margin: 0 auto;
   max-width: 190px;
   margin: 5px auto;
   /* color: var(--mainblue); */
-  color: rgb(189, 189, 189);
-  border: 1px solid #424242;
+  color: rgb(221, 221, 221);
+  border: 1px solid #585858;
 
   border-radius: 50px;
 }

@@ -202,10 +202,10 @@ font-size: 30px;
 }
 
  /* 關於我------------------------------------- */
- @media(max-width:1028px){
+ @media(max-width:1024px){
 
     .about-me h2{
-      margin-top: 8%;
+      margin-top: 5%;
     }
     
 
