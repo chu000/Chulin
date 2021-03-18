@@ -244,7 +244,7 @@ h1 {
   font-size: 0.9rem;
   letter-spacing: 1.3px;
 
-  line-height: 2.3;
+  line-height: 2;
 }
 .littlechu {
   position: absolute;
@@ -297,7 +297,7 @@ opacity: .5;
 
 /* skills */
 .skillbox {
-  max-width:500px;
+  max-width:480px;
   margin: 0 auto;
   margin-bottom: 2%;
   display: flex;
@@ -324,8 +324,8 @@ margin: 0 auto;
 
 .skills-icon {
 
-  width: 27px;
-  height: 27px;
+  width: 30px;
+  height: 30px;
   /* margin: 3px auto; */
  
 }
