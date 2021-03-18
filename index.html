@@ -489,9 +489,13 @@ $('.navbarM').css('transform','translate3d(-1200px,0px,0px)')
 })
 
 // 害羞點擊
-$('.littlechu svg').click(function(){
-  $('.shybox').css('opacity','0.6');
-  $('.littlechu svg').css('opacity','0.9');
+$('.littlechu svg').mouseenter(function(){
+  $('.shybox').css('opacity','0.8');
+  $('.littlechu svg').css('opacity','0.8');
+})
+$('.littlechu svg').mouseleave(function(){
+  $('.shybox').css('opacity','0');
+  $('.littlechu svg').css('opacity','0.2');
 })
 </script>
 
