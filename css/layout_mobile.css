@@ -211,27 +211,42 @@ font-size: 30px;
 
     #about .container{
        /* text-align: center; */
-       margin-top: 5%;
+       margin-top: 8%;
      }
    .about-me{
-       margin: 0 auto;
-       line-height: 2;
+       margin: 1% auto;
+       line-height: 2.2;
        font-size: 1rem;
    }
    
-   .skilssbox{
+   .skillbox{
        max-width:600px;
     
     margin-bottom: 5%;
     
    
    }
+
+   /* 證照技能 使用工具 的標題 */
+.aboutTitle{
+
+  margin: 4% 0 2% 0;
+
+}
+.skillbox{
+ 
+
+margin-top: 4%;
+
+
+}
    .skills-icon{
        width: 50px;
        height: 50px;
        margin: 2%  3%;
        }
-   
+
+
        .License-box{
            max-width:500px;
         
@@ -241,16 +256,14 @@ font-size: 30px;
         font-size: 1rem;
         line-height: 32px;
     
-    max-width: 500px;
-    margin: 10px ;
+    max-width: 250px;
+    margin: 10px auto;
 
  
     }
+
     }
  @media(max-width:768px){
-  .littlechu{
-    display: none;
-  }
 
 
  #about .container{
@@ -262,8 +275,14 @@ font-size: 30px;
   
     font-size: .9rem;
 }
+/* 證照技能 使用工具 的標題 */
+.aboutTitle{
+  font-size: .8rem;
 
-.skilssbox{
+  margin: 4% 0 2% 0;
+  letter-spacing: 1.1px;
+}
+.skillbox{
     max-width:500px;
  
  margin-bottom: 5%;
@@ -271,20 +290,26 @@ font-size: 30px;
 
 }
 .skills-icon{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     margin: 2%  3%;
     }
 
     .License-box{
-        max-width:500px;
-     
-       
+        max-width:450px;
+   
     }
-
+    .License{
+     max-width: 200px;
+   line-height: 25px;
+      font-size: .8rem;
+  }
  }
 
  @media(max-width:600px){
+  .littlechu{
+    display: none;
+  }
 
     .about-me h2{
         margin-top: 15%;
@@ -293,28 +318,42 @@ font-size: 30px;
 
     #about .container{
        /* text-align: center; */
-       margin: 3% auto;
+       margin: 2% auto;
      
      }
    .about-me{
   max-width: 310px;
        margin: 0 auto;
-       line-height: 1.8;
-       font-size: .8rem;
+       line-height: 2;
+       font-size: .7rem;
    }
  
+   .aboutTitle{
+    font-size: .7rem;
+  
+    margin: 4% 0 1% 0;
    
-   .skilssbox{
-       max-width:320px;
-    
-    margin-bottom: 5%;
-    
-   
+  }
+   .skillbox{
+       max-width:450px;  
+    margin-bottom: 0;
    }
+   .skill_SET {
+
+    margin: 0 0 4% 0;
+  
+  
+   
+  }
+  .skill_SET p{
+font-size: 0.7rem;
+ 
+
+}
    .skills-icon{
-       width: 30px;
-       height: 30px;
-       margin: 2%  0;
+       width: 22px;
+       height: 22px;
+       margin:  0;
        }
    
        .License-box{
@@ -323,8 +362,8 @@ font-size: 30px;
           
        }
        .License{
-        font-size: .8rem;
-        line-height: 1.5;
+        font-size: .7rem;
+        line-height: 2;
    
     max-width: 200px;
     margin: 5px auto;
@@ -332,41 +371,72 @@ font-size: 30px;
  
     }
     }
-    @media(max-width:400px){
+    @media(max-width:480px){
         .about-me{
+          max-width: 290px;
             margin: 0 auto;
-            line-height: 1.6;
+            line-height: 1.8;
             font-size: .7rem;
         }
         .License{
             font-size: .7rem;
-            line-height: 1.5;
+            line-height: 2;
            
-        max-width: 200px;
-        margin: 8px auto;
+        max-width: 180px;
+        margin: 6px auto;
     
         
         }
+        .aboutTitle{
+       
+          margin: 4% 0 2% 0;
+         
+        }
+        .skillbox{
+          max-width:300px;  
+      
+      }
+  
+     .skill_SET p{
+   /* font-size: 0.6rem; */
+    display: none;
+   
+   }
+      .skills-icon{
+          width: 30px;
+          height: 30px;
+          margin:  0;
+          }
     }
     @media(max-width:320px){
+      .about-me h2{
+        /* text-align: center; */
+        margin-top: 8%;
+      }
+      
         .about-me{
             text-align: center;
             margin: 0 auto;
-            max-width: 300px;
-            line-height: 1.6;
+            max-width: 290px;
+            line-height: 1.8;
             font-size: .7rem;
         }
-        .skilssbox{
+        .aboutTitle{
+       
+          margin: 3% 0 1% 0;
+         
+        }
+        .skillbox{
             max-width:250px;
-         margin-bottom: 2%;
+         margin-bottom: 0;
         }
         .skills-icon{
             width: 25px;
             height: 25px;
-            margin: 2%  0;
+           
             }
         .License{
-  margin: 5px auto;
+  margin: 3px auto;
    
         }
     }
