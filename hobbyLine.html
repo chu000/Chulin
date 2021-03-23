@@ -8,8 +8,8 @@
     <meta name="description" content="阮楚琳(Chu-lin)作品集網站，運用撰寫Css、Html、Jquery與網頁設計等技術獨立製作。" />
     <title>Chu-lin's portfolio</title>
     <!-- for swiper link css -->
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" />
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />      -->
+    <!-- <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css" type="text/css" />
     <link rel="stylesheet" href="./css/layout_desktop.css" type="text/css" />
     <link rel="stylesheet" href="./css/layout_mobile.css" type="text/css" />
@@ -41,11 +41,21 @@
         <svg class="close"><use xlink:href="./icomoon/symbol-defs.svg#icon-close"></use>  </svg>
         <ul class="navListM">
 
-            <li>Home</li>
-            <li> About</li>
-            <li>Work experience</li>
-            <li>Performances experience</li>
-            <li>Hobby</li>
+            <a href="home.html">
+                <li>Home</li>
+            </a>
+            <a href="home.html">
+                <li> About</li>
+            </a>
+            <a href="home.html">
+                <li>Work experience</li>
+            </a>
+            <a href="home.html">
+                <li>Performances experience</li>
+            </a>
+            <a href="home.html">
+                <li>Hobby</li>
+            </a>
         </ul>
 
     </div>
@@ -101,8 +111,8 @@
 
 
     <!-- for swiper link  js  -->
-    <script src="./js/swiper-bundle.min.js"></script>
-    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- <script src="./js/swiper-bundle.min.js"></script> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- <script src="./js/jquery-3.5.1.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="./js/lazysizes.min.js"></script>
@@ -116,16 +126,15 @@
             $('.navbarM').css('transform', 'translate3d(-1200px,0px,0px)')
         })
 
+
         //---------------------------------手機版的nav的表 第幾個跳第幾個-----------------------
         $('.navListM li').click(function() {
 
             // mobile在nav取LI第幾個的值
             let navLi = $('.navListM li').index(this);
-            // console.log(navLi)
-            // $('.swiper-pagination span').eq(navLi).trigger('click');
-            // 上面這個是點了觸發swiper-pagination的第幾個在trigger觸發點擊
-            swiper.slideTo(navLi);
-            // 這個是取到swiper的第幾個
+
+            localStorage.localIndex = navLi;
+            //回到主頁給他 傳數值 指定到第幾頁
         })
 
 

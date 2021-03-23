@@ -49,9 +49,13 @@
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
-        line-height: 2;
+        line-height: 2.5;
+        cursor: pointer;
     }
-    .navListM li :active {
+    .navListM :hover {
+        color: var(--mainblue);
+    }
+    .navListM :active {
         color: var(--mainblue);
     }
     .logo,
@@ -72,11 +76,11 @@
         height: 30px;
     }
     .close {
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
     .navListM li {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 2.5;
     }
 }
@@ -712,10 +716,15 @@ left:47%; */
         max-width: 130px;
         margin: 3% 0;
     }
+    .workTitle svg {
+        width: 28px;
+        height: 28px;
+        margin: 2%;
+    }
 }
 
 
-/*------------興趣頁----------------------------*/
+/*------------興趣 詳細頁----------------------------*/
 
 @media (max-width:768px) {
     .notebox {
