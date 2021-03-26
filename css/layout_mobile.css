@@ -311,7 +311,8 @@
   }
   h4::before {
     content: '●';
-    font-size: 4px;
+    font-size: 3px;
+    line-height: 1;
   }
   .aboutTitle {
     margin: 4% auto;
