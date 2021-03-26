@@ -387,7 +387,7 @@ h1 {
 
 .License-box p::before {
     content: '#';
-    font-size: 18px;
+    font-size: 15px;
     color: var(--mainblue);
     /* opacity: 0.5; */
     margin-right: 1%;
