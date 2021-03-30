@@ -1,783 +1,786 @@
-@media(max-width:600px) {
-    h2 {
-        font-size: 25px;
-    }
+@media (max-width: 600px) {
+  h2 {
+    font-size: 25px;
+  }
 }
 
-@media(max-width:320px) {
-    h2 {
-        font-size: 20px;
-    }
+@media (max-width: 320px) {
+  h2 {
+    font-size: 20px;
+  }
 }
 
-@media(min-width:1025px) {
-    .navbarM,
-    .menu {
-        display: none;
-    }
+@media (min-width: 1025px) {
+  .navbarM,
+  .menu {
+    display: none;
+  }
 }
 
-@media(max-width:1024px) {
-    .navbarM {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: var(--maindark);
-        opacity: .9;
-        z-index: 99;
-        /* border: 5px solid rgba(255, 255, 255, 0.493); */
-        transition: .5s;
-        transform: translate3d(-1200px, 0px, 0px);
-    }
-    .close {
-        position: absolute;
-        cursor: pointer;
-        width: 50px;
-        height: 50px;
-        fill: #fff;
-        margin: 5% 5%;
-        right: 0;
-    }
-    .navListM {
-        max-width: 400px;
-        margin: 50% auto;
-    }
-    .navListM li {
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.5rem;
-        line-height: 2.5;
-        cursor: pointer;
-    }
-    .navListM :hover {
-        color: var(--mainblue);
-    }
-    .navListM :active {
-        color: var(--mainblue);
-    }
-    .logo,
-    .menu {
-        margin: 3% 3%;
-    }
+@media (max-width: 1024px) {
+  .navbarM {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--maindark);
+    opacity: 0.9;
+    z-index: 99;
+    /* border: 5px solid rgba(255, 255, 255, 0.493); */
+    transition: 0.5s;
+    transform: translate3d(-1200px, 0px, 0px);
+  }
+  .close {
+    position: absolute;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+    margin: 5% 5%;
+    right: 0;
+  }
+  .navListM {
+    max-width: 400px;
+    margin: 50% auto;
+  }
+  .navListM li {
+    display: flex;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    cursor: pointer;
+  }
+  .navListM a {
+    text-decoration: none;
+  }
+  .navListM :hover {
+    color: var(--mainblue);
+  }
+  .navListM :active {
+    color: var(--mainblue);
+  }
+  .logo,
+  .menu {
+    margin: 3% 3%;
+  }
 }
 
-@media(max-width:480px) {
-    .logo,
-    .menu {
-        width: 35px;
-        height: 35px;
-        margin: 3% 3%;
-    }
-    .menu {
-        width: 30px;
-        height: 30px;
-    }
-    .close {
-        width: 25px;
-        height: 25px;
-    }
-    .navListM li {
-        font-size: .9rem;
-        line-height: 2.5;
-    }
+@media (max-width: 480px) {
+  .logo,
+  .menu {
+    width: 35px;
+    height: 35px;
+    margin: 3% 3%;
+  }
+  .menu {
+    width: 30px;
+    height: 30px;
+  }
+  .close {
+    width: 25px;
+    height: 25px;
+  }
+  .navListM li {
+    font-size: 0.9rem;
+    line-height: 2.5;
+  }
 }
-
 
 /* ---------header---------------------- */
 
-@media(max-width:1024px) {
-    .H1box {
-        margin: 18% auto;
-        line-height: 60px;
-        letter-spacing: 0px;
+@media (max-width: 1024px) {
+  .H1box {
+    margin: 18% auto;
+    line-height: 60px;
+    letter-spacing: 0px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .H1box p {
+    font-size: 30px;
+  }
+  @keyframes chu {
+    0% {
+      right: 25%;
+      bottom: -21%;
     }
-    h1 {
-        font-size: 60px;
+    100% {
+      right: 20%;
+      bottom: -5%;
     }
-    .H1box p {
-        font-size: 30px;
-    }
-    @keyframes chu {
-        0% {
-            right: 25%;
-            bottom: -21%;
-        }
-        100% {
-            right: 20%;
-            bottom: -5%;
-        }
-    }
+  }
 }
 
-@media(max-width:768px) {
-    /* H1chu0動態 */
-    @keyframes chu {
-        0% {
-            right: 20%;
-            bottom: -30%;
-        }
-        100% {
-            right: 15%;
-            bottom: -20%;
-        }
+@media (max-width: 768px) {
+  /* H1chu0動態 */
+  @keyframes chu {
+    0% {
+      right: 20%;
+      bottom: -30%;
     }
-    h1 {
-        font-size: 50px;
+    100% {
+      right: 15%;
+      bottom: -20%;
     }
-    .H1box {
-        margin: 15% auto;
-        margin-left: 5%;
-        line-height: 60px;
-    }
-    .H1box p {
-        font-size: 25px;
-    }
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .H1box {
+    margin: 15% auto;
+    margin-left: 5%;
+    line-height: 60px;
+  }
+  .H1box p {
+    font-size: 25px;
+  }
 }
 
-@media(max-width:615px) {
-    .H1chu0 {
-        max-width: 300px;
-        animation-name: none;
-        bottom: -30%;
-        right: 10%;
-    }
-    .H1smokey {
-        animation-name: none;
-    }
-    .H1box {
-        margin: 8% 5%;
-        line-height: 40px;
-    }
-    .H1box p {
-        font-size: 18px;
-    }
-    h1 {
-        font-size: 30px;
-    }
+@media (max-width: 615px) {
+  .H1chu0 {
+    max-width: 300px;
+    animation-name: none;
+    bottom: -30%;
+    right: 10%;
+  }
+  .H1smokey {
+    animation-name: none;
+  }
+  .H1box {
+    margin: 8% 5%;
+    line-height: 40px;
+  }
+  .H1box p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 30px;
+  }
 }
 
-@media(max-width:480px) {
-    .H1chu0 {
-        max-width: 260px;
-        right: 5%;
-        bottom: -18%;
-    }
-    .H1box {
-        margin-top: 15%;
-        line-height: 35px;
-    }
-    .H1box p {
-        font-size: 16px;
-    }
-    h1 {
-        font-size: 28px;
-    }
+@media (max-width: 480px) {
+  .H1chu0 {
+    max-width: 260px;
+    right: 5%;
+    bottom: -18%;
+  }
+  .H1box {
+    margin-top: 15%;
+    line-height: 35px;
+  }
+  .H1box p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 28px;
+  }
 }
 
-@media(max-width:376px) {
-    .H1chu0 {
-        max-width: 250px;
-        right: 3%;
-        bottom: -20%;
-    }
+@media (max-width: 376px) {
+  .H1chu0 {
+    max-width: 250px;
+    right: 3%;
+    bottom: -20%;
+  }
 }
 
-@media(max-width:350px) {
-    .H1chu0 {
-        max-width: 220px;
-        right: 2%;
-        bottom: -45%;
-    }
+@media (max-width: 350px) {
+  .H1chu0 {
+    max-width: 220px;
+    right: 2%;
+    bottom: -45%;
+  }
 }
-
 
 /* 關於我------------------------------------- */
 
-@media(max-width:1200px) {
-    .about-me h2 {
-        margin-top: 5%;
-    }
-    #about .container {
-        /* text-align: center; */
-        margin-top: 5%;
-    }
-    .about-me {
-        margin: 1% auto;
-        line-height: 2.2;
-        font-size: 1rem;
-    }
-    .skillbox {
-        max-width: 700px;
-        margin-bottom: 0%;
-    }
-    .skills-icon {
-        width: 50px;
-        height: 50px;
-        margin: 2% 3%;
-    }
+@media (max-width: 1200px) {
+  .about-me h2 {
+    margin-top: 5%;
+  }
+  #about .container {
+    /* text-align: center; */
+    margin-top: 5%;
+  }
+  .about-me {
+    margin: 1% auto;
+    line-height: 2.2;
+    font-size: 1rem;
+  }
+  .skillbox {
+    max-width: 700px;
+    margin-bottom: 0%;
+  }
+  .skills-icon {
+    width: 50px;
+    height: 50px;
+    margin: 2% 3%;
+  }
 }
 
-@media(max-width:900px) {
-    #about .container {
-        /* text-align: center; */
-        margin-top: 5%;
-    }
-    .about-me {
-        margin: 0 auto;
-        font-size: .9rem;
-    }
-    .skillbox {
-        max-width: 600px;
-    }
-    .skills-icon {
-        width: 30px;
-        height: 30px;
-    }
-    .License-box {
-        max-width: 300px;
-    }
-    .License {
-        /* max-width: 200px; */
-        font-size: .8rem;
-    }
+@media (max-width: 900px) {
+  #about .container {
+    /* text-align: center; */
+    margin-top: 5%;
+  }
+  .about-me {
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+  .skillbox {
+    max-width: 600px;
+  }
+  .skills-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .License-box {
+    max-width: 300px;
+  }
+  .License {
+    /* max-width: 200px; */
+    font-size: 0.8rem;
+  }
 }
 
-@media(max-width:600px) {
-    .littlechu {
-        display: none;
-    }
-    .about-me h2 {
-        margin-top: 15%;
-    }
-    #about .container {
-        /* text-align: center; */
-        margin-top: 2%;
-    }
-    .about-me {
-        max-width: 310px;
-        margin: 0 auto;
-        line-height: 2;
-        font-size: .7rem;
-        margin-bottom: 2%;
-    }
-    .aboutTitle {
-        font-size: .6rem;
-        margin: 3% auto;
-        max-width: 100px;
-        padding: 1px 0;
-    }
-    .skillbox {
-        max-width: 400px;
-    }
-    .skill_SET {
-        margin: 0 0% 2% 0%;
-    }
-    .skill_SET p {
-        font-size: 0.7rem;
-    }
-    .skills-icon {
-        width: 27px;
-        height: 27px;
-    }
-    .License-box {
-        max-width: 400px;
-    }
-    .License {
-        font-size: .7rem;
-        ;
-        max-width: 200px;
-        line-height: 1;
-        letter-spacing: 1px;
-    }
+@media (max-width: 600px) {
+  .littlechu {
+    display: none;
+  }
+  .about-me h2 {
+    margin-top: 15%;
+  }
+  #about .container {
+    /* text-align: center; */
+    margin-top: 2%;
+  }
+  .about-me {
+    max-width: 310px;
+    margin: 0 auto;
+    line-height: 2;
+    font-size: 0.7rem;
+    margin-bottom: 2%;
+  }
+  .aboutTitle {
+    font-size: 0.6rem;
+    margin: 3% auto;
+    max-width: 100px;
+    padding: 1px 0;
+  }
+  .skillbox {
+    max-width: 400px;
+  }
+  .skill_SET {
+    margin: 0 0% 2% 0%;
+  }
+  .skill_SET p {
+    font-size: 0.7rem;
+  }
+  .skills-icon {
+    width: 27px;
+    height: 27px;
+  }
+  .License-box {
+    max-width: 400px;
+  }
+  .License {
+    font-size: 0.7rem;
+    max-width: 200px;
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+  .License-box p::before {
+    content: '#';
+    font-size: 12px;
+  }
 }
 
-@media(max-width:480px) {
-    .about-me {
-        max-width: 320px;
-        margin: 0 auto 4% auto;
-        line-height: 2;
-        font-size: .7rem;
-    }
-    .License {
-        font-size: .7rem;
-        max-width: 180px;
-    }
-    h4::before {
-        content: '●';
-        font-size: 4px;
-    }
-    .aboutTitle {
-        margin: 4% auto;
-    }
-    .skillbox {
-        max-width: 320px;
-    }
-    .skill_SET p {
-        /* font-size: 0.6rem; */
-        display: none;
-    }
-    .skills-icon {
-        width: 30px;
-        height: 30px;
-        margin: 1%;
-    }
+@media (max-width: 480px) {
+  .about-me {
+    max-width: 320px;
+    margin: 0 auto 4% auto;
+    line-height: 2;
+    font-size: 0.7rem;
+  }
+  .License {
+    font-size: 0.7rem;
+    max-width: 180px;
+  }
+  h4::before {
+    content: '●';
+    font-size: 3px;
+    line-height: 1;
+  }
+  .aboutTitle {
+    margin: 5% auto;
+  }
+  .skillbox {
+    max-width: 320px;
+  }
+  .skill_SET p {
+    /* font-size: 0.6rem; */
+    display: none;
+  }
+  .skills-icon {
+    width: 30px;
+    height: 30px;
+    margin: 1%;
+  }
 }
 
-@media(max-width:320px) {
-    .about-me h2 {
-        /* text-align: center; */
-        margin-top: 8%;
-    }
-    .about-me {
-        text-align: center;
-        margin: 0 auto;
-        max-width: 260px;
-        line-height: 2;
-        font-size: .7rem;
-        letter-spacing: 0px;
-    }
-    .aboutTitle {
-        margin: 5% auto;
-    }
-    .skillbox {
-        max-width: 260px;
-        margin-bottom: 0;
-    }
-    .skills-icon {
-        width: 25px;
-        height: 25px;
-        margin: 1%;
-    }
-    .License {
-        line-height: .8;
-    }
+@media (max-width: 320px) {
+  .about-me h2 {
+    /* text-align: center; */
+    margin-top: 8%;
+  }
+  .about-me {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 260px;
+    line-height: 2;
+    font-size: 0.7rem;
+    letter-spacing: 0px;
+  }
+  .aboutTitle {
+    margin: 5% auto;
+  }
+  .skillbox {
+    max-width: 260px;
+    margin-bottom: 0;
+  }
+  .skills-icon {
+    width: 25px;
+    height: 25px;
+    margin: 1%;
+  }
+  .License {
+    line-height: 0.8;
+  }
 }
-
 
 /* 工作經歷 */
 
 @media (min-width: 768px) and (max-width: 1025px) {
-    .worktext {
-        margin: 12% 4%;
-    }
-    .worklist li {
-        margin: 5% 3%;
-        text-align: center;
-    }
-    .worklist li h3 {
-        font-size: 22px;
-    }
-    .worklist li p {
-        font-size: .9rem;
-    }
-    .worklist li::after {
-        display: none;
-    }
+  .worktext {
+    margin: 12% 4%;
+  }
+  .worklist li {
+    margin: 5% 3%;
+    text-align: center;
+  }
+  .worklist li h3 {
+    font-size: 22px;
+  }
+  .worklist li p {
+    font-size: 0.9rem;
+  }
+  .worklist li::after {
+    display: none;
+  }
 }
 
 @media (min-width: 767px) {
-    .workMobile {
-        display: none;
-    }
+  .workMobile {
+    display: none;
+  }
 }
-
 
 /* 工作手機板 */
 
 @media (max-width: 767px) {
-    .workbox {
-        display: none;
-    }
-    .workMobile {
-        text-align: center;
-        margin: 0 auto;
-    }
-    .workMobile a {
-        text-decoration: none;
-        color: #fff;
-    }
-    .workMobile h2 {
-        margin-left: 5%;
-        margin-top: 15%;
-        margin-bottom: 6%;
-    }
-    .Mwrap {
-        width: 100%;
-        width: 330px;
-        /* border:  2px solid rgba(255, 255, 255, 0.945); */
-        border-radius: 5px;
-        margin: 2% 0;
-    }
-    .Mwrap h3 {
-        font-size: 16px;
-    }
-    .WMobileList {
-        padding: 5% 5%;
-        text-align: left;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.884) 20%, rgba(0, 0, 0, 0) 80%);
-    }
-    .WMobileList p {
-        font-size: .6rem;
-        color: rgb(207, 207, 207);
-    }
+  .workbox {
+    display: none;
+  }
+  .workMobile {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .workMobile a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .workMobile h2 {
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 6%;
+  }
+  .Mwrap {
+    width: 100%;
+    width: 330px;
+    /* border:  2px solid rgba(255, 255, 255, 0.945); */
+    border-radius: 5px;
+    margin: 2% 0;
+  }
+  .Mwrap h3 {
+    font-size: 16px;
+  }
+  .WMobileList {
+    padding: 5% 5%;
+    text-align: left;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.884) 20%,
+      rgba(0, 0, 0, 0) 80%
+    );
+  }
+  .WMobileList p {
+    font-size: 0.6rem;
+    color: rgb(207, 207, 207);
+  }
 }
 
 @media (max-width: 376px) {
-    .Mwrap {
-        /* max-width: 300px; */
-        margin: 1% 0;
-    }
-    .WMobileList {
-        padding: 3% 5%;
-    }
+  .Mwrap {
+    /* max-width: 300px; */
+    margin: 1% 0;
+  }
+  .WMobileList {
+    padding: 3% 5%;
+  }
 }
 
 @media (max-width: 320px) {
-    .workMobile h2 {
-        margin-top: 10%;
-        margin-bottom: 2%;
-    }
+  .workMobile h2 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
 }
-
 
 /* 表演經歷------------------- */
 
-@media(max-width:1024px) {
-    #Performance {
-        padding-top: 6%;
-    }
-    .showbox {
-        margin: 5% auto;
-    }
+@media (max-width: 1024px) {
+  #Performance {
+    padding-top: 6%;
+  }
+  .showbox {
+    margin: 5% auto;
+  }
 }
 
-@media(max-width:600px) {
-    #Performance {
-        padding-top: 10%;
-    }
-    .showbox {
-        height: 400px;
-        margin: 3% auto;
-    }
-    .img-wrap li {
-        max-width: 800px;
-    }
-    .img-wrap img {
-        object-position: -220px -70px;
-    }
-    .slider-PerformanceTEXT li {
-        max-width: 300px;
-        left: 50%;
-        margin-left: -150px;
-        /*  width + left + margin-left
+@media (max-width: 600px) {
+  #Performance {
+    padding-top: 10%;
+  }
+  .showbox {
+    height: 400px;
+    margin: 3% auto;
+  }
+  .img-wrap li {
+    max-width: 800px;
+  }
+  .img-wrap img {
+    object-position: -220px -70px;
+  }
+  .slider-PerformanceTEXT li {
+    max-width: 300px;
+    left: 50%;
+    margin-left: -150px;
+    /*  width + left + margin-left
     是position: absolute;水平置中的方法*/
-    }
+  }
 }
 
-@media(max-width:320px) {
-    .slider-PerformanceTEXT li {
-        display: none;
-    }
+@media (max-width: 320px) {
+  .slider-PerformanceTEXT li {
+    display: none;
+  }
 }
-
 
 /* ---興趣---------------------------------------------- */
 
-@media(max-width:1024px) {
-    #hobby h2 {
-        margin-top: 12%;
-    }
+@media (max-width: 1024px) {
+  #hobby h2 {
+    margin-top: 12%;
+  }
 }
 
-@media(max-width:1000px) {
-    #hobby h2 {
-        margin-top: 8%;
-    }
-    #hobby a {
-        margin: 5% 3%;
-    }
-    .hobbyBox {
-        width: 130px;
-        height: 130px;
-    }
-    #hobby .row p {
-        margin-top: 10%;
-        font-size: 20px;
-    }
-    .hobbytext {
-        max-width: 500px;
-        line-height: 2;
-    }
-    .footerbg {
-        padding: 3% 0 3% 0;
-    }
+@media (max-width: 1000px) {
+  #hobby h2 {
+    margin-top: 8%;
+  }
+  #hobby a {
+    margin: 5% 3%;
+  }
+  .hobbyBox {
+    width: 130px;
+    height: 130px;
+  }
+  #hobby .row p {
+    margin-top: 10%;
+    font-size: 20px;
+  }
+  .hobbytext {
+    max-width: 500px;
+    line-height: 2;
+  }
+  .footerbg {
+    padding: 3% 0 3% 0;
+  }
 }
 
-@media(max-width:500px) {
-    #hobby a {
-        margin: 5% 4%;
-    }
-    .hobbyBox {
-        width: 80px;
-        height: 80px;
-    }
-    #hobby .row p {
-        margin-top: 10%;
-        font-size: .8rem;
-    }
-    .hobbytext {
-        max-width: 300px;
-        line-height: 2;
-        font-size: .8rem;
-    }
-    .footerbg {
-        padding: 4% 0 3% 0;
-        font-size: .8rem;
-    }
-    footer {
-        height: 60px;
-    }
+@media (max-width: 500px) {
+  #hobby a {
+    margin: 5% 4%;
+  }
+  .hobbyBox {
+    width: 80px;
+    height: 80px;
+  }
+  #hobby .row p {
+    margin-top: 10%;
+    font-size: 0.8rem;
+  }
+  .hobbytext {
+    max-width: 300px;
+    line-height: 2;
+    font-size: 0.8rem;
+  }
+  .footerbg {
+    padding: 4% 0 3% 0;
+    font-size: 0.8rem;
+  }
+  footer {
+    height: 60px;
+  }
 }
 
-@media(max-width:320px) {
-    #hobby a {
-        margin: 5% 3%;
-    }
-    .hobbyBox {
-        width: 70px;
-        height: 70px;
-    }
-    #hobby .row p {
-        margin-top: 10%;
-        font-size: 0.7rem;
-    }
-    .hobbytext {
-        max-width: 270px;
-        line-height: 2;
-        font-size: .7rem;
-    }
-    .footerbg {
-        padding: 4% 0 3% 0;
-        font-size: .7rem;
-    }
-    footer {
-        height: 50px;
-    }
+@media (max-width: 320px) {
+  #hobby a {
+    margin: 5% 3%;
+  }
+  .hobbyBox {
+    width: 70px;
+    height: 70px;
+  }
+  #hobby .row p {
+    margin-top: 10%;
+    font-size: 0.7rem;
+  }
+  .hobbytext {
+    max-width: 270px;
+    line-height: 2;
+    font-size: 0.7rem;
+  }
+  .footerbg {
+    padding: 4% 0 3% 0;
+    font-size: 0.7rem;
+  }
+  footer {
+    height: 50px;
+  }
 }
-
 
 /* --------------戲谷工作頁面----------------------------------- */
 
-@media(max-width:1024px) {
-    .picBox {
-        margin: 5% auto;
-        width: 850px;
-        column-count: 4;
-    }
-    .picBox img {
-        transition: 1s;
-        max-width: 200px;
-        margin: 3% 0;
-    }
-    .popBox {
-        max-width: 600px;
-        top: 80px;
-        left: 0;
-        right: 0;
-        background-color: rgb(255, 255, 255);
-        border-radius: 10px;
-        padding: 5% 0 2% 0;
-    }
-    .popclose {
-        right: 15px;
-        top: 15px;
-        width: 20px;
-        height: 20px;
-    }
+@media (max-width: 1024px) {
+  .picBox {
+    margin: 5% auto;
+    width: 850px;
+    column-count: 4;
+  }
+  .picBox img {
+    transition: 1s;
+    max-width: 200px;
+    margin: 3% 0;
+  }
+  .popBox {
+    max-width: 600px;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5% 0 2% 0;
+  }
+  .popclose {
+    right: 15px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+  }
 }
 
-@media(max-width:768px) {
-    .workContent {
-        max-width: 500px;
-        margin: 13% auto 5% auto;
-    }
-    .picBox {
-        margin: 5% auto;
-        width: 700px;
-        column-count: 3;
-    }
-    .picBox img {
-        max-width: 200px;
-        margin: 3% 0;
-    }
-    .bottomplace {
-        margin-top: 15%;
-    }
+@media (max-width: 768px) {
+  .workContent {
+    max-width: 500px;
+    margin: 13% auto 5% auto;
+  }
+  .picBox {
+    margin: 5% auto;
+    width: 700px;
+    column-count: 3;
+  }
+  .picBox img {
+    max-width: 200px;
+    margin: 3% 0;
+  }
+  .bottomplace {
+    margin-top: 15%;
+  }
 }
 
-@media(max-width:540px) {
-    .workContent {
-        max-width: 400px;
-        margin: 18% auto 5% auto;
-        font-size: .9rem;
-    }
-    .workContent h3 {
-        font-size: 20px;
-    }
-    .picBox {
-        margin: 5% auto;
-        max-width: 500px;
-        column-count: 3;
-    }
-    .picBox img {
-        max-width: 150px;
-        margin: 3% 0;
-    }
-    .STitle {
-        font-size: 16px;
-        color: rgb(129, 129, 129);
-        margin: 30px 20px 10px 20px;
-    }
-    .bottomplace {
-        margin-top: 20%;
-    }
-    .popBox {
-        /* max-width: 600px; */
-        /* height: 100%; */
-        /* width: 100%; */
-        top: 0px;
-        left: 0;
-        right: 0;
-        background-color: rgba(255, 255, 255, 0);
-        border-radius: 0px;
-        padding: 5% 0 2% 0;
-    }
-    .popBox p {
-        color: #fff;
-        font-size: .9rem;
-    }
-    .popBox img {
-        width: 90%;
-        margin-top: 80px;
-        max-height: 500px;
-        object-fit: contain;
-    }
-    .popclose {
-        /* background-color: rgba(255, 255, 255, 0.329);
+@media (max-width: 540px) {
+  .workContent {
+    max-width: 400px;
+    margin: 18% auto 5% auto;
+    font-size: 0.9rem;
+  }
+  .workContent h3 {
+    font-size: 20px;
+  }
+  .picBox {
+    margin: 5% auto;
+    max-width: 500px;
+    column-count: 3;
+  }
+  .picBox img {
+    max-width: 150px;
+    margin: 3% 0;
+  }
+  .STitle {
+    font-size: 16px;
+    color: rgb(129, 129, 129);
+    margin: 30px 20px 10px 20px;
+  }
+  .bottomplace {
+    margin-top: 20%;
+  }
+  .popBox {
+    /* max-width: 600px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    padding: 5% 0 2% 0;
+  }
+  .popBox p {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .popBox img {
+    width: 90%;
+    margin-top: 80px;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  .popclose {
+    /* background-color: rgba(255, 255, 255, 0.329);
 border-radius: 50%;
 padding: 2%;
 left:47%; */
-        top: 30px;
-        right: 25px;
-        fill: #fff;
-        width: 25px;
-        height: 25px;
-    }
+    top: 30px;
+    right: 25px;
+    fill: #fff;
+    width: 25px;
+    height: 25px;
+  }
 }
 
-@media(max-width:450px) {
-    .workContent {
-        max-width: 300px;
-        margin: 18% auto 5% auto;
-        font-size: .8rem;
-    }
-    .workContent h3 {
-        font-size: 18px;
-    }
-    .picBox {
-        margin: 5% auto;
-        max-width: 350px;
-        column-count: 2;
-    }
-    .picBox img {
-        max-width: 160px;
-        margin: 3% 0;
-    }
+@media (max-width: 450px) {
+  .workContent {
+    max-width: 300px;
+    margin: 18% auto 5% auto;
+    font-size: 0.8rem;
+  }
+  .workContent h3 {
+    font-size: 18px;
+  }
+  .picBox {
+    margin: 5% auto;
+    max-width: 350px;
+    column-count: 2;
+  }
+  .picBox img {
+    max-width: 160px;
+    margin: 3% 0;
+  }
 }
 
-@media(max-width:400px) {
-    .workContent {
-        max-width: 260px;
-        margin: 18% auto 2% auto;
-        font-size: .7rem;
-    }
-    .workContent h3 {
-        font-size: 15px;
-    }
-    .picBox {
-        margin: 5% auto;
-        max-width: 270px;
-        column-count: 2;
-    }
-    .picBox img {
-        max-width: 130px;
-        margin: 3% 0;
-    }
-    .workTitle svg {
-        width: 28px;
-        height: 28px;
-        margin: 2%;
-    }
+@media (max-width: 400px) {
+  .workContent {
+    max-width: 260px;
+    margin: 18% auto 2% auto;
+    font-size: 0.7rem;
+  }
+  .workContent h3 {
+    font-size: 15px;
+  }
+  .picBox {
+    margin: 5% auto;
+    max-width: 270px;
+    column-count: 2;
+  }
+  .picBox img {
+    max-width: 130px;
+    margin: 3% 0;
+  }
+  .workTitle svg {
+    width: 28px;
+    height: 28px;
+    margin: 2%;
+  }
 }
-
 
 /*------------興趣 詳細頁----------------------------*/
 
-@media (max-width:768px) {
-    .notebox {
-        max-width: 500px;
-        color: var(--maingray);
-        font-size: 0.8rem;
-        margin: 1% auto 5% auto;
-    }
-    .HBbgLine {
-        padding: 3% 2%;
-        max-width: 700px;
-        margin: 3% auto;
-        color: #1c1c1c;
-        font-size: 0.8rem;
-    }
-    .HBbgLine img {
-        max-width: 100px;
-        margin: 1% 2%;
-    }
-    .hobbyBTN {
-        max-width: 70px;
-        margin: 3% auto 0 auto;
-        font-size: 0.8rem;
-    }
+@media (max-width: 768px) {
+  .notebox {
+    max-width: 500px;
+    color: var(--maingray);
+    font-size: 0.8rem;
+    margin: 1% auto 5% auto;
+  }
+  .HBbgLine {
+    padding: 3% 2%;
+    max-width: 700px;
+    margin: 3% auto;
+    color: #1c1c1c;
+    font-size: 0.8rem;
+  }
+  .HBbgLine img {
+    max-width: 100px;
+    margin: 1% 2%;
+  }
+  .hobbyBTN {
+    max-width: 70px;
+    margin: 3% auto 0 auto;
+    font-size: 0.8rem;
+  }
 }
 
-@media (max-width:540px) {
-    .notebox {
-        max-width: 500px;
-        color: var(--maingray);
-        font-size: 0.7rem;
-        padding: 2%;
-        margin: 1% auto 5% auto;
-    }
-    .HBbgLine {
-        border-radius: 0px;
-        padding: 4% 0;
-        max-width: 500px;
-        margin: 3% auto;
-        color: #1c1c1c;
-        font-size: 0.7rem;
-    }
-    .HBbgLine p {
-        line-height: 1.5;
-        font-size: 0.7rem;
-    }
-    .HBbgLine img {
-        max-width: 75px;
-        margin: 2% 5px;
-    }
-    .hobbyBTN {
-        max-width: 50px;
-        margin: 2% auto 0 auto;
-        font-size: 0.7rem;
-    }
+@media (max-width: 540px) {
+  .notebox {
+    max-width: 500px;
+    color: var(--maingray);
+    font-size: 0.7rem;
+    padding: 2%;
+    margin: 1% auto 5% auto;
+  }
+  .HBbgLine {
+    border-radius: 0px;
+    padding: 4% 0;
+    max-width: 500px;
+    margin: 3% auto;
+    color: #1c1c1c;
+    font-size: 0.7rem;
+  }
+  .HBbgLine p {
+    line-height: 1.5;
+    font-size: 0.7rem;
+  }
+  .HBbgLine img {
+    max-width: 75px;
+    margin: 2% 5px;
+  }
+  .hobbyBTN {
+    max-width: 50px;
+    margin: 2% auto 0 auto;
+    font-size: 0.7rem;
+  }
 }
