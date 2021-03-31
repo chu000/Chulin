@@ -392,7 +392,7 @@ h4::before {
 .License-box p::before {
     content: '#';
     font-size: 15px;
-    color: var(--mainblue);
+    color: var(--maingray);
     /* opacity: 0.5; */
     margin-right: 1%;
 }
