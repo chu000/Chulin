@@ -393,7 +393,7 @@ h4::before {
     content: '#';
     font-size: 15px;
     color: var(--maingray);
-    /* opacity: 0.5; */
+    opacity: 0.8;
     margin-right: 1%;
 }
 
