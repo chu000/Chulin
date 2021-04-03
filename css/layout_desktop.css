@@ -938,7 +938,7 @@ margin: 0 auto;
 }
 
 .workTitle h2 {
-    margin-top: -11px;
+    margin-top: -20px;
 }
 
 .workTitle svg {
@@ -1085,7 +1085,14 @@ margin: 0 auto;
     position: relative;
 }
 
-
+.mymind{
+    word-break:keep-all;
+    max-width: 900px;
+    font-size: 15px;
+    margin: 0 8%;
+opacity: 0.8;
+line-height: 2.1;
+}
 /*------------興趣 詳細頁----------------------------*/
 
 .notebox {

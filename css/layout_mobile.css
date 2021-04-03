@@ -620,6 +620,8 @@
   .bottomplace {
     margin-top: 15%;
   }
+
+
 }
 
 @media (max-width: 540px) {
@@ -680,6 +682,13 @@ left:47%; */
     width: 25px;
     height: 25px;
   }
+
+  .mymind{
+
+    font-size: 13px;
+    margin: 10% 8%;
+
+}
 }
 
 @media (max-width: 450px) {
