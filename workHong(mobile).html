@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="阮楚琳作品集網站，運用網頁設計與Css、Html、Jquery...等程式撰寫，獨立製作過往經歷的分享。"
+    />
+    <title>Chu-lin's portfolio</title>
+
+    <meta property="og:site_name" content="Chu-lin's portfolio" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chu-lin's portfolio" />
+    <meta
+      property="og:description"
+      content="阮楚琳作品集網站，運用網頁設計與Css、Html、Jquery...等程式撰寫，獨立製作過往經歷的分享。"
+    />
+    <meta
+      property="og:image"
+      content="https://chu000.github.io/Chulin/images/cover.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1080px" />
+    <meta property="og:image:height" content="520px" />
+    <meta
+      property="og:url"
+      content="https://chu000.github.io/Chulin/home.html"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://chu000.github.io/Chulin/home.html" />
+    <!-- for swiper link css -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/layout_desktop.css" type="text/css" />
+    <link rel="stylesheet" href="./css/layout_mobile.css" type="text/css" />
+    <link rel="stylesheet" href="./css/for_swiper.css" type="text/css" />
+    <link rel="stylesheet" href="./css/for_boos.css" type="text/css" />
+  </head>
+
+  <body>
+    <a href="home.html">
+      <div class="back">
+        <p>Back</p>
+      </div>
+    </a>
+
+    <div class="goTOP">
+      <p>TOP</p>
+    </div>
+    <nav>
+      <div class="navbar">
+        <a href="home.html">
+          <svg class="logo">
+            <use xlink:href="./icomoon/symbol-defs.svg#icon-chu-logo"></use>
+          </svg>
+        </a>
+        <svg class="menu">
+          <use xlink:href="./icomoon/symbol-defs.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </nav>
+    <div class="navbarM">
+      <svg class="close">
+        <use xlink:href="./icomoon/symbol-defs.svg#icon-close"></use>
+      </svg>
+      <ul class="navListM">
+        <a href="home.html">
+          <li>Home</li>
+        </a>
+        <a href="home.html">
+          <li>About</li>
+        </a>
+        <a href="home.html">
+          <li>Work experience</li>
+        </a>
+        <a href="home.html">
+          <li>Performances experience</li>
+        </a>
+        <a href="home.html">
+          <li>Hobby</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="container">
+
+     
+       
+     
+      <div class="row workContent">
+        <div class="workTitle col-12 col-lg-6">
+          <h2>Work experience</h2>
+          <p>2013 Aug - 2014 Aug</p>
+          <h3>網路部 電商平面設計</h3>
+          <p>鴻昌照相器材有限公司</p>
+          <br />
+          <p class="maingray50">主要工具：</p>
+
+          <svg class="skills-icon col-3 col-sm-2 col-xl-2">
+            <use
+              xlink:href="./icomoon/symbol-defs.svg#icon-adobeillustrator"
+            ></use>
+          </svg>
+          <svg class="skills-icon col-3 col-sm-2 col-xl-2">
+            <use
+              xlink:href="./icomoon/symbol-defs.svg#icon-adobephotoshop"
+            ></use>
+          </svg>
+        </div>
+        <div class="workarticle col-12 col-lg-6">
+          <p class="maingray50 mt-10">主要工作內容：</p>
+          <p>
+            1.協助拍賣網站管理.<br>2.製作商品行銷圖文.<br>3.網頁banner及EDM設計.<br>4.Logo品牌設計.<br>5.名片設計與店員專屬人像繪製.<br>6.協助包貨、出貨，及相關客服事項.<br>7.整理實體店面與倉庫.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="moworkIMG">
+    <img src="./images/main_hong.jpg"  >
+  </div>
+
+    <div class="bottomplace">
+      <footer>
+        <div class="footerbg">Chu-lin's Portfolio © 2021 Copyright</div>
+      </footer>
+    </div>
+
+    <!-- for swiper link  js  -->
+    <!-- <script src=" ./js/swiper-bundle.min.js "></script> -->
+    <script src=" https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <!-- <script src=" ./js/jquery-3.5.1.js "></script> -->
+    <script
+      src=" https://code.jquery.com/jquery-3.5.1.js "
+      integrity="
+        sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin=" anonymous "
+    ></script>
+    <script src=" ./js/lazysizes.min.js "></script>
+    <script>
+      // 手機版菜單點出--------------------
+
+      $('.menu').click(function () {
+        $('.navbarM').css('transform', 'translate3d(0px,0px,0px)')
+      })
+      $('.close').click(function () {
+        $('.navbarM').css('transform', 'translate3d(-1200px,0px,0px)')
+      })
+
+      //---------------------------------手機版的nav的表 第幾個跳第幾個-----------------------
+      $('.navListM li').click(function () {
+        // mobile在nav取LI第幾個的值
+        let navLi = $('.navListM li').index(this)
+
+        localStorage.localIndex = navLi
+        //回到主頁給他 傳數值 指定到第幾頁
+      })
+
+      // pop圖片------------------------------------------
+      $('.picBox img').click(function () {
+        // 定義 取出圖片位置的值
+        let imgSrc = $(this).attr('src')
+        let imgAlt = $(this).attr('alt')
+        console.log('call', imgSrc)
+        console.log('call', imgAlt)
+        // 在body增加div
+        $('body').append(` 
+         <div class="popup"></div>
+    <div class="popBox">
+        <img class="lazyload" data-src="" alt="">
+        <svg  class="popclose"><use xlink:href="./icomoon/symbol-defs.svg#icon-close"></use>  </svg>
+        <p></p>
+    </div>
+    
+`)
+        // 換圖
+        $('.popBox img').attr('src', imgSrc)
+        // 換字
+        $('.popBox p').text(imgAlt)
+        // 關閉
+        $('.popclose').click(function () {
+          console.log('hi')
+          $('.popup').remove()
+          $('.popBox').remove()
+        })
+        // 點擊黑遮罩關閉
+        $('.popup').click(function () {
+          $('.popup').remove()
+          $('.popBox').remove()
+        })
+      })
+      // 到達一定位置跑出
+      $(window).scroll(function () {
+        // console.log('scroll',$(this).scrollTop())
+
+        if ($(this).scrollTop() > 800) {
+          $('.goTOP').css('transform', 'translateX(0px)')
+        } else {
+          $('.goTOP').css('transform', 'translateX(100px)')
+        }
+      })
+      // 點了跑上去TOP
+      $('.goTOP').click(function () {
+        $(' html,body ').animate(
+          {
+            scrollTop: 0,
+          },
+          700,
+        )
+      })
+      // 點back 回到主頁給他  pageIndex,的數值----
+
+      $('.back').click(function () {
+        /* 存储名字为 localIndex , 值为 1 的变量 如下两种方法 */
+        localStorage.localIndex = 2
+        //swiper.slideTo(3);
+      })
+    </script>
+  </body>
+</html>

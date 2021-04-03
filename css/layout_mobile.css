@@ -534,9 +534,10 @@
     font-size: 0.8rem;
   }
   .hobbytext {
-    max-width: 300px;
+    margin-top: 5%;
+    max-width: 283px;
     line-height: 2;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .footerbg {
     padding: 4% 0 3% 0;

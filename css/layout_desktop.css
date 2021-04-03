@@ -1086,9 +1086,20 @@ margin: 0 auto;
     margin-top: 8%;
     width: 100%;
     position: relative;
+
 }
+.moworkIMG  {
+ margin: 5% auto;
+height:  400px;
 
 
+}
+.moworkIMG img {
+    width: 100%;
+height:  100%;
+object-fit: cover;
+
+}
 /*------------興趣 詳細頁----------------------------*/
 
 .notebox {
