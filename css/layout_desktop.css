@@ -31,7 +31,9 @@
 .mb-10 {
     margin-bottom: 10px;
 }
-
+.mt-10 {
+    margin-top: 10px;
+}
 .fw {
     font-weight: 600;
 }
@@ -938,7 +940,7 @@ margin: 0 auto;
 }
 
 .workTitle h2 {
-    margin-top: -20px;
+    margin-top: -12px;
 }
 
 .workTitle svg {
@@ -1085,20 +1087,13 @@ margin: 0 auto;
     position: relative;
 }
 
-.mymind{
-    word-break:keep-all;
-    max-width: 900px;
-    font-size: 15px;
-    margin: 0 8%;
-opacity: 0.8;
-line-height: 2.1;
-}
+
 /*------------興趣 詳細頁----------------------------*/
 
 .notebox {
     max-width: 700px;
     color: var(--maingray);
-    font-size: 0.9rem;
+    font-size: 16px;
     margin: 1% auto;
     line-height: 2;
     word-break: keep-all;

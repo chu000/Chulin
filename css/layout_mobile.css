@@ -683,12 +683,7 @@ left:47%; */
     height: 25px;
   }
 
-  .mymind{
 
-    font-size: 13px;
-    margin: 10% 8%;
-
-}
 }
 
 @media (max-width: 450px) {
@@ -742,7 +737,7 @@ left:47%; */
   .notebox {
     max-width: 500px;
     color: var(--maingray);
-    font-size: 0.8rem;
+    font-size: 13px;
     margin: 1% auto 5% auto;
   }
   .HBbgLine {
@@ -764,13 +759,7 @@ left:47%; */
 }
 
 @media (max-width: 540px) {
-  .notebox {
-    max-width: 500px;
-    color: var(--maingray);
-    font-size: 0.7rem;
-    padding: 2%;
-    margin: 1% auto 5% auto;
-  }
+
   .HBbgLine {
     border-radius: 0px;
     padding: 4% 0;
