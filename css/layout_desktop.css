@@ -268,7 +268,7 @@ h1 {
 
 h4::before {
     content: '●';
-    font-size: 6px;
+    font-size: 5px;
     color: var(--mainblue);
     /* opacity: 0.7; */
     margin-right: 1%;

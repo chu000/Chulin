@@ -264,6 +264,11 @@
     font-size: 0.7rem;
     margin-bottom: 2%;
   }
+  h4::before {
+    content: '●';
+    font-size: 3px;
+    line-height: 1.2;
+  }
   .aboutTitle {
     font-size: 0.6rem;
     margin: 3% auto;
@@ -311,7 +316,7 @@
   }
   h4::before {
     content: '●';
-    font-size: 3px;
+    font-size: 2px;
     line-height: 1.2;
   }
   .aboutTitle {
