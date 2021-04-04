@@ -316,7 +316,7 @@
   }
   h4::before {
     content: '●';
-    font-size: 2px;
+    font-size: 3px;
     line-height: 1.2;
   }
   .aboutTitle {
