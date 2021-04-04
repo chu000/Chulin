@@ -631,6 +631,12 @@
 }
 
 @media (max-width: 540px) {
+  .workTitle svg {
+    width: 30px;
+    height: 30px;
+ 
+    margin: 1%;
+}
   .workContent {
     max-width: 400px;
     margin: 18% auto 5% auto;
@@ -693,6 +699,12 @@ left:47%; */
 }
 
 @media (max-width: 450px) {
+  .workTitle svg {
+    width: 23px;
+    height: 23px;
+ 
+    margin: 1%;
+}
   .workContent {
     max-width: 300px;
     margin: 18% auto 5% auto;
@@ -730,11 +742,7 @@ left:47%; */
     max-width: 130px;
     margin: 3% 0;
   }
-  .workTitle svg {
-    width: 28px;
-    height: 28px;
-    margin: 2%;
-  }
+
 }
 
 /*------------興趣 詳細頁----------------------------*/
