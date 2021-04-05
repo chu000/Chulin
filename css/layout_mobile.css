@@ -836,6 +836,7 @@ left:47%; */
     font-size: 11px;
 
   }
+}
   @media (max-width: 361px) {
     .notebox {
       max-width: 280px;
