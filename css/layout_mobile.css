@@ -532,27 +532,24 @@
   #hobby .hobbytext p {
     margin-top: 3%;
     max-width: 500px;
-    line-height: 2.0;
+    line-height: 2;
     font-size: 1rem;
   }
-  
 
-footer {
-  height: 90px;
-}
+  footer {
+    height: 90px;
+  }
   .footerbg {
     padding: 3% 0 3% 0;
   }
 }
 @media (max-width: 600px) {
-
-  #hobby .hobbytext p  {
+  #hobby .hobbytext p {
     margin-top: 5%;
     max-width: 450px;
     line-height: 2;
     font-size: 0.7rem;
   }
-
 }
 @media (max-width: 500px) {
   #hobby a {
@@ -566,7 +563,7 @@ footer {
     margin-top: 10%;
     font-size: 0.8rem;
   }
-  #hobby .hobbytext p  {
+  #hobby .hobbytext p {
     margin-top: 5%;
     max-width: 283px;
     line-height: 2;
@@ -593,7 +590,7 @@ footer {
     margin-top: 10%;
     font-size: 0.7rem;
   }
-  #hobby .hobbytext p  {
+  #hobby .hobbytext p {
     max-width: 270px;
     line-height: 2;
     font-size: 0.7rem;
@@ -655,17 +652,15 @@ footer {
   .bottomplace {
     margin-top: 15%;
   }
-
-
 }
 
 @media (max-width: 540px) {
   .workTitle svg {
     width: 30px;
     height: 30px;
- 
+
     margin: 1%;
-}
+  }
   .workContent {
     max-width: 400px;
     margin: 18% auto 5% auto;
@@ -723,17 +718,15 @@ left:47%; */
     width: 25px;
     height: 25px;
   }
-
-
 }
 
 @media (max-width: 450px) {
   .workTitle svg {
     width: 23px;
     height: 23px;
- 
+
     margin: 1%;
-}
+  }
   .workContent {
     max-width: 300px;
     margin: 18% auto 5% auto;
@@ -771,7 +764,6 @@ left:47%; */
     max-width: 130px;
     margin: 3% 0;
   }
-
 }
 
 /*------------興趣 詳細頁----------------------------*/
@@ -798,7 +790,6 @@ left:47%; */
     max-width: 70px;
     margin: 3% auto 0 auto;
     font-size: 0.8rem;
-
   }
 }
 
@@ -806,7 +797,6 @@ left:47%; */
   .notebox {
     max-width: 400px;
     font-size: 12px;
-
   }
   .HBbgLine {
     border-radius: 0px;
@@ -834,13 +824,11 @@ left:47%; */
   .notebox {
     max-width: 340px;
     font-size: 11px;
-
   }
 }
-  @media (max-width: 361px) {
-    .notebox {
-      max-width: 280px;
-      font-size: 11px;
-  
-    }
+@media (max-width: 361px) {
+  .notebox {
+    max-width: 280px;
+    font-size: 11px;
+  }
 }
