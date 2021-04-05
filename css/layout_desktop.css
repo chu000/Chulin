@@ -73,7 +73,7 @@ h2 {
     color: var(--maingray);
     margin: 0 auto;
     margin-top: 5%;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 h3 {
@@ -775,14 +775,16 @@ bottom: 0px; */
     background-size: cover;
 }
 
-.hobbytext {
+
+#hobby .hobbytext p {
     max-width: 600px;
+ 
+    color: var(--maingray);
     line-height: 2;
     word-break: keep-all;
-    color: var(--maingray);
+    margin-top: 1%;
     font-size: 0.9rem;
 }
-
 .hobbyBox:hover {
     transform: scale(0.9);
 }
@@ -1112,9 +1114,6 @@ object-fit: cover;
     /* 中文遇符號段行 */
 }
 
-.notebox p {
-    margin: 0 3%;
-}
 
 .hobbyTitle {
     font-size: 20px;
