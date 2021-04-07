@@ -778,7 +778,8 @@ bottom: 0px; */
 
 #hobby .hobbytext p {
     max-width: 600px;
- 
+    position: relative;
+    margin: 0 auto;
     color: var(--maingray);
     line-height: 2;
     word-break: keep-all;
@@ -1105,6 +1106,7 @@ object-fit: cover;
 /*------------興趣 詳細頁----------------------------*/
 
 .notebox {
+    position: relative;
     max-width: 700px;
     color: var(--maingray);
     font-size: 16px;

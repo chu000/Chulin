@@ -545,6 +545,7 @@
 }
 @media (max-width: 600px) {
   #hobby .hobbytext p {
+    margin: 0 auto;
     margin-top: 5%;
     max-width: 450px;
     line-height: 2;
@@ -773,6 +774,7 @@ left:47%; */
     max-width: 500px;
     color: var(--maingray);
     font-size: 13px;
+   
     margin: 1% auto 5% auto;
   }
   .HBbgLine {
@@ -828,6 +830,7 @@ left:47%; */
 }
 @media (max-width: 361px) {
   .notebox {
+
     max-width: 280px;
     font-size: 11px;
   }
