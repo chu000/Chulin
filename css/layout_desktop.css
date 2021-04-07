@@ -777,6 +777,7 @@ bottom: 0px; */
 
 
 #hobby .hobbytext p {
+ 
     max-width: 600px;
     position: relative;
     margin: 0 auto;
@@ -785,6 +786,7 @@ bottom: 0px; */
     word-break: keep-all;
     margin-top: 1%;
     font-size: 0.9rem;
+    overflow: hidden;
 }
 .hobbyBox:hover {
     transform: scale(0.9);
@@ -1115,6 +1117,8 @@ object-fit: cover;
     word-break: keep-all;
     /* 中文遇符號段行 */
     word-wrap:normal;
+    text-align: center;
+    overflow: hidden;
 }
 
 
