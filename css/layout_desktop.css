@@ -747,6 +747,7 @@ bottom: 0px; */
   height: 160px;
   border-radius: 50%;
   /* opacity: .7; */
+  transition: 1s;
 }
 
 #hobby .row p {
