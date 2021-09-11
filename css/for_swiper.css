@@ -1,31 +1,29 @@
-html, body {
-    position: relative;
-    height: 100%;
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.swiper-wrapper{
-    transition: 1s !important; 
-    /* 強迫改它的秒數 */
+.swiper-wrapper {
+  transition: 1s !important;
+  /* 強迫改它的秒數 */
 }
 .swiper-slide {
-    
-   
-    /* text-align: center;
+  /* text-align: center;
     font-size: 18px; */
-   
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    /* -webkit-box-pack: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
@@ -33,34 +31,34 @@ html, body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center; */
-   
 }
 .swiper-pagination-bullet {
-   
-    margin-right: 50px;
+  margin-right:10px !important ;
   width: 200px;
   height: 25px;
   font-size: 16px;
 
-   text-align: right;
-    background: #fff;
-    color: rgb(187, 187, 187);
-    border-radius: 0;
-    background: rgba(0, 0, 0, 0);
-    opacity: 1;
-    text-shadow: 0 0 10px #000;
+  text-align: right;
+  background: #fff;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  opacity: 1;
+  text-shadow: 0 0 10px #000;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  color: var(--mainblue);
+}
+@media (max-width: 1024px) {
+  .swiper-pagination-bullet {
+    display: none !important ;
+    border: 0;
   }
-  .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet { 
-    margin-right: 10px;
-    /* display: none; */
-}
-.swiper-pagination-bullet-active{
-    opacity: 1;
-    color: var(--mainblue);
-}
-@media (max-width:1024px) {
-    .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet { 
-        display: none;
+  /*  因應swiper地7版css改寫 加!important */
+  /* .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet { 
+        display: none !important ;
         border: 0;
-    }
+    } */
 }
