@@ -31,8 +31,13 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href="https://chu000.github.io/Chulin/home.html" />
-    <!-- for swiper link css -->
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" />
+    <!-- for swiper link css (2021更新7) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- <link rel="stylesheet" href="./css/swiper-bundle.min.css" type="text/css" /> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />      -->
 
     <link rel="stylesheet" href="./css/reset.css" type="text/css" />
@@ -41,7 +46,10 @@
     <link rel="stylesheet" href="./css/for_swiper.css" type="text/css" />
     <link rel="stylesheet" href="./css/for_boos.css" type="text/css" />
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;300;400;500;600;700;900&family=Roboto:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;300;400;500;600;700;900&family=Roboto:wght@200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -697,7 +705,7 @@
 
     <!-- for swiper link  js  -->
     <!-- <script src="./js/swiper-bundle.min.js"></script> -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- jqury -->
     <!-- <script src="./js/jquery-3.5.1.js"></script> -->
@@ -712,20 +720,21 @@
 
     <script>
       // for back跳轉到主頁的指定頁面 pageIndex是為了從別的頁面跳轉回來的變數
-      var pageIndex = 0
+      var pageIndex = 0;
 
-      if (localStorage.getItem('localIndex')) {
-        pageIndex = localStorage.getItem(
-          'localIndex',
-        ) /* 读取保存在localStorage对象里名为 localIndex 的变量的值 赋值给index */
+      if (localStorage.getItem("localIndex")) {
+        pageIndex =
+          localStorage.getItem(
+            "localIndex"
+          ); /* 读取保存在localStorage对象里名为 localIndex 的变量的值 赋值给index */
         localStorage.removeItem(
-          'localIndex',
-        ) /* 删除 保存在localStorage对象里的变量 localIndex */
+          "localIndex"
+        ); /* 删除 保存在localStorage对象里的变量 localIndex */
       }
 
       // for swiper  js
-      var swiper = new Swiper('.swiper-container', {
-        direction: 'vertical',
+      var swiper = new Swiper(".swiper-container", {
+        direction: "vertical",
         threshold: 30,
         //  threshold 可調整敏感度。滑动超过px，才会触发显示下一页/上一页
         initialSlide: pageIndex,
@@ -734,65 +743,65 @@
         spaceBetween: 30,
         mousewheel: true,
         pagination: {
-          el: '.swiper-pagination',
+          el: ".swiper-pagination",
           clickable: true,
           renderBullet: function (index, className) {
             switch (
               index //用来显示自定义的文本，将(index + 1)替换为text即可
             ) {
               case 0:
-                text = 'Home'
-                break
+                text = "Home";
+                break;
               case 1:
-                text = 'About'
-                break
+                text = "About";
+                break;
               case 2:
-                text = 'Work'
-                break
+                text = "Work";
+                break;
               case 3:
-                text = 'Performances'
-                break
+                text = "Performances";
+                break;
               case 4:
-                text = 'Hobby'
-                break
+                text = "Hobby";
+                break;
             }
 
             // return `<span class="${className}">${(index + 0)}</span>`;
-            return `<span class="${className}">${text}</span>`
+            return `<span class="${className}">${text}</span>`;
           },
         },
-      })
+      });
 
       // for swiper  js (over)
 
       // 點工作經歷---------------------------
 
-      $('.worklist li').click(function () {
+      $(".worklist li").click(function () {
         // console.log('hi',$('.worklist li').index(this));
         // 取LI第幾個的值
-        let workLi = $('.worklist li').index(this)
+        let workLi = $(".worklist li").index(this);
 
         // 取道第N個LI值帶入第N個DIV
-        $('.workwrap')
+        $(".workwrap")
           .eq(workLi)
-          .addClass('moveIN')
+          .addClass("moveIN")
           .siblings()
-          .removeClass('moveIN')
+          .removeClass("moveIN");
 
         // 增加被點選過效果
-        $(this).addClass('LIactive').siblings().removeClass('LIactive')
+        $(this).addClass("LIactive").siblings().removeClass("LIactive");
 
         // 選到的那個文字進來
-        $('.workwrap').eq(workLi).children('.worktext').addClass('moveINx0')
+        $(".workwrap").eq(workLi).children(".worktext").addClass("moveINx0");
 
         // 沒選到的那個文字出去
 
-        $('.workwrap')
+        $(".workwrap")
           .eq(workLi)
           .siblings()
-          .children('.worktext')
-          .removeClass('moveINx0')
-      })
+          .children(".worktext")
+          .removeClass("moveINx0");
+      });
 
       // hover特效化妝字跑出class
       // $('.worklist li').hover(function(){
@@ -806,35 +815,35 @@
       //   })
 
       // 害羞點擊-------------------------
-      $('.littlechu svg').click(function () {
-        $('.shybox').css('opacity', '0.9')
-        $('.littlechu svg').css('opacity', '0.8')
-      })
+      $(".littlechu svg").click(function () {
+        $(".shybox").css("opacity", "0.9");
+        $(".littlechu svg").css("opacity", "0.8");
+      });
 
       // 手機版菜單點出--------------------
 
-      $('.menu').click(function () {
-        $('.navbarM').css('transform', 'translate3d(0px,0px,0px)')
-      })
-      $('.close').click(function () {
-        $('.navbarM').css('transform', 'translate3d(-1200px,0px,0px)')
-      })
+      $(".menu").click(function () {
+        $(".navbarM").css("transform", "translate3d(0px,0px,0px)");
+      });
+      $(".close").click(function () {
+        $(".navbarM").css("transform", "translate3d(-1200px,0px,0px)");
+      });
 
       //---------------------------------手機版的nav的表 第幾個跳第幾個-----------------------
-      $('.navListM li').click(function () {
+      $(".navListM li").click(function () {
         // mobile在nav取LI第幾個的值
-        let navLi = $('.navListM li').index(this)
+        let navLi = $(".navListM li").index(this);
         // console.log(navLi)
         // $('.swiper-pagination span').eq(navLi).trigger('click');
         // 上面這個是點了觸發swiper-pagination的第幾個在trigger觸發點擊
-        swiper.slideTo(navLi)
+        swiper.slideTo(navLi);
         // 這個是取到swiper的第幾個
-      })
+      });
 
       //封面箭頭往下
-      $('.arrow_down').click(function () {
-        swiper.slideTo(1)
-      })
+      $(".arrow_down").click(function () {
+        swiper.slideTo(1);
+      });
     </script>
   </body>
 </html>
